@@ -3,12 +3,10 @@ import numpy as np
 class KNN:
     #KNN 클래스의 생성자
     def __init__(self, x_train, t_train, label_name ,K):
-        #K값을 저장합니다
         self.k = K
         
         #reshpae 함수를사용해서 (x_train.shape[0], 28, 1) 차원으로 변환합니다.
         self.x_train = (x_train).reshape(x_train.shape[0], 28, 28)
-        
         self.t_train = t_train
         #label_name 리스트를 정의합니다.
         self.label_name = label_name
@@ -224,8 +222,6 @@ class KNN:
         #distance 배열의 길이는 x_train data 의 image 갯수 입니다.
         distance = np.zeros(shape=(self.x_train.shape[0], ))
 
-        x_test = x_test
-        
         #x_test 를 (x_test의 image 갯수, 28, 28) 차원으로 변환합니다.
         x_test = x_test.reshape(x_test.shape[0],28,28)
 

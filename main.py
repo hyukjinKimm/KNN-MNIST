@@ -14,6 +14,7 @@ import KNN
 
 label_name =  ['0','1','2','3','4','5','6','7','8','9']
 
+
 #knn클래스 생성 방법
 #KNN.KNN(x_train, t_train, label_name, K값)
 K = 11
