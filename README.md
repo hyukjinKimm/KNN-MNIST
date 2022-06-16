@@ -7,6 +7,7 @@ Simple k-nearest neighbors algorithm with mnist data set
 classification of mnist data set using KNN alg
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/107605573/174063187-6d8e14b4-32a4-4f65-80ad-b90136a217ed.png)
 
 ## Getting Started
 
